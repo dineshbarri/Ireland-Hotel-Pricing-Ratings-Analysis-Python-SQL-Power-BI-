@@ -214,15 +214,51 @@ A moderate relationship observed — hotels with high review counts often mainta
 
 ---
 
-# 🚀 7. How to Use This Repo
+## 📋 Prerequisites
+- **Python 3.8+**
+- **pandas, numpy libraries**
+- **Microsoft SQL Server**
+- **Power BI Desktop**
 
-### **1. Clone the repository**
+
+---
+
+## 🛠️ Installation & Setup
+
+### ** 1. Clone the repository**
 ```bash
 git clone https://github.com/dineshbarri/Ireland-Hotel-Pricing-Ratings-Analysis-Python-SQL-Power-BI.git
 cd Ireland-Hotel-Pricing-Ratings-Analysis-Python-SQL-Power-BI
 ```
 
 
+### 2. Running the Notebook
+
+####   Install dependencies:
+    pip install -r requirements.txt
+
+####  Launch Jupyter Notebook:
+    jupyter notebook Ireland_Hotel_Analysis_Data_Cleaning.ipynb
+
+💡 *Note:  Always use a virtual environment for this project to maintain dependency isolation and ensure reproducible results across different systems.*
+
+
+### 3.  Run SQL Queries(SSMS) 
+
+- Open **SQL Server Management Studio (SSMS)** and create a new database named **Hotels**.
+-  Right-click the database → **Tasks → Import Flat File** → load `hotels_cleaned.csv` as table **hotels_cleaned**.
+-  Open `sql/Hotels_Cleaned_Ireland.sql` in SSMS and select the **Hotels** database.
+-  Run the script (F5) to execute all SQL analysis queries.
+
+
+### 4. Opening the Power BI Dashboard
+
+  **a) Install Power BI Desktop** (if not already installed)
+   - Download from [Microsoft Power BI](https://powerbi.microsoft.com/desktop/)
+
+ **b) Open the Dashboard**:
+   - Double-click `Hotels_Ireland_Dashboard.pbix`
+   - Or open Power BI Desktop and select File → Open → Browse to the file
 
 
 
