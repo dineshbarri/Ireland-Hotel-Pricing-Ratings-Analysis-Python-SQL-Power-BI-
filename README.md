@@ -9,8 +9,7 @@
 
 </div>
 
-This end-to-end data analytics project focuses on analyzing **hotels in Ireland** using real-world data scraped from *Booking.com*.  
-The project covers the full lifecycle of a modern data analytics workflow
+This comprehensive end-to-end data analytics project provides deep insights into Ireland's hotel market using real-world data scraped from Booking.com. The project demonstrates a complete modern data analytics workflow from raw data to actionable business intelligence.
 
 
 ---
@@ -48,16 +47,14 @@ Ireland-Hotels-Data-Analysis/
 │       └── hotels_cleaned.csv          # Cleaned dataset
 │
 ├── notebooks/
-│   └── ireland-hotels.ipynb           # Data cleaning & preprocessing
+│   └── ireland_hotels_analysis.ipynb           # Data cleaning & preprocessing
 │
-├── sql/
-│   └── Hotels_Ireland.sql             # All SQL queries for analysis
+├── Hotels_Ireland.sql             # All SQL queries for analysis
 │
 ├── powerbi/
 │   └── Ireland_Hotels_Dashboard.pbix  # Power BI dashboard file
 │
-├── docs/
-│   └── README.md                      # Project documentation
+├──README.md                      # Project documentation
 │
 └── requirements.txt                   # Python dependencies
 ```
@@ -118,41 +115,73 @@ Cleaning and preprocessing were performed in the Jupyter notebook:
 
 ## 🗄️ 3. SQL Analysis (SSMS)
 
-The cleaned dataset was imported into SQL Server Management Studio (SSMS).
-
-All SQL queries, CTEs, and table creation scripts are included in:
+- The cleaned dataset was imported into SQL Server Management Studio (SSMS).
+- This SQL analysis explores key business questions to derive actionable insights from the Irish hotel market data, covering performance, pricing, availability, and customer perception.
 
 
 ### 🔍 **Key Business Questions Solved (Using SQL + CTEs)**
 
 ---
 
-### **1️⃣ Top Rated Hotels**
-Identify the highest-scoring hotels across Ireland.
+### ⭐ Hotel Quality Analysis
 
-### **2️⃣ Average Rating by City**
-Which cities have the best overall hotel ratings?
+#### Top-Rated Hotels
+- Identifies hotels with the highest review scores across Ireland
+- Ranks top 10 hotels based on verified rating values
 
-### **3️⃣ Top 5 Hotels by Rating & Review Count**
-Ranking hotels using a combined metric:
+#### City-Level Hotel Quality
+- Calculates average hotel score by city
+- Highlights cities offering the best-rated accommodation
 
-- High rating  
-- High review count  
+### 📈 Combined Score & Popularity Metrics
 
-### **4️⃣ Hotels Offering Free Cancellation with High Scores**
-Helps identify flexible, yet top-performing stays.
+#### Top Hotels by Score + Reviews
+- Ranks hotels using a hybrid metric (score + review count)
+- Ensures high-scoring hotels with strong customer engagement are prioritized
 
-### **5️⃣ Price Range Analysis by City**
-Understand pricing patterns across major cities.
+#### Most Popular Hotels
+- Computes a Popularity Index = score × log₁₀(reviews + 10)
+- Surfaces hotels with strong reputation and high public trust
 
-### **6️⃣ Room Availability by City**
-Which cities have higher average rooms left?
+### 💰 Price & Value Analysis
 
-### **7️⃣ Review Rate Distribution**
-Distribution of hotels across review categories.
+#### City-Wise Price Range
+- Minimum, maximum, and average hotel prices per city
+- Identifies cities with the widest and narrowest price gaps
+- Helps understand affordability and luxury concentration
 
-### **8️⃣ Impact of Review Count on Rating**
-A correlation study using SQL aggregations.
+### 🏨 Customer Convenience & Policies
+
+#### Free Cancellation Insights
+- Lists high-scoring hotels offering free cancellation
+- Useful for travellers seeking flexible booking options
+
+#### 🛏️ Capacity & Booking Insights
+
+#### City Room Availability
+- Calculates average rooms left per city
+- Indicates cities with higher supply vs. demand pressure
+
+### 🗳️ Review Behavior & Reputation
+
+#### Review Rate Distribution
+- Counts hotels by review-rating category
+- Shows popularity distribution across review tiers
+
+#### Review Count vs Score Correlation
+- Categorizes hotels into review-count ranges
+- Analyzes whether higher review volume corresponds with higher scores
+- Helps identify credibility and rating reliability
+
+
+#### 🖼️ Sample SQL Query
+
+<div align="center">
+ 
+<img src="assets/sql_preview.png" width="600" alt="SQL Query Analysis Preview">
+
+</div>
+
 
 ---
 
