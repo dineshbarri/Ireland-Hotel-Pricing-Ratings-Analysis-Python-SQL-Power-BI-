@@ -1,13 +1,33 @@
-
-#  Ireland Hotels Pricing Rating Analysis  
-
 <div align="center">
 
-![POWERBI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=Power%2520BI&logoColor=white)
-![MICROSOFT SQL SERVER](https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
-![PYTHON](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+  <!-- Gradient Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6A5BE2,100:FF6B6B&height=150&section=header&text=🏨Ireland+Hotels+Pricing+Analysis&fontSize=40&fontColor=ffffff&animation=fadeIn" />
+
+
+  <!-- Subtitle (Typing animation) -->
+  <p>
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=16&duration=2800&pause=1000&color=6A5BE2&center=true&vCenter=true&width=520&lines=501+Hotels+Analyzed+Across+Ireland;Advanced+Pricing+Patterns+%26+Insights;Data+Cleaning%2C+Visualization+%26+BI+Dashboards;Python+SQL+Power+BI+End-to-End+Project" />
+  </p>
+
+  <!-- Tech Stack Badges -->
+  <div align="center">
+
+  ![POWERBI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=Power%2520BI&logoColor=black)
+  ![MICROSOFT SQL SERVER](https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
+  ![PYTHON](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+  ![PANDAS](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+  ![MATPLOTLIB](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
+  ![SEABORN](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&logo=python&logoColor=white)
+  ![JUPYTER](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+
+  </div>
+
+  <!-- Animated Divider -->
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
 </div>
+
+
 
 This comprehensive end-to-end data analytics project provides deep insights into Ireland's hotel market using real-world data scraped from Booking.com. The project demonstrates a complete modern data analytics workflow from raw data to actionable business intelligence.
 
