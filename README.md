@@ -66,8 +66,7 @@ Ireland-Hotels-Pricing-Rating-Analysis/
 │   └── processed/
 │       └── hotels_cleaned.csv          # Cleaned dataset
 │
-├── notebooks/
-│   └── ireland_hotels_comprehensive_analysis.ipynb           # Data cleaning & preprocessing
+│── ireland_hotels_comprehensive_analysis.ipynb           # Data cleaning & preprocessing
 │
 ├── Hotels_Ireland.sql             # All SQL queries for analysis
 │
@@ -76,6 +75,7 @@ Ireland-Hotels-Pricing-Rating-Analysis/
 │
 ├──README.md                      # Project documentation
 │
+├── booking_scraper.py            # Srapes data from Booking.com and generates hotels.csv
 └── requirements.txt                   # Python dependencies
 ```
 
@@ -303,6 +303,7 @@ cd Ireland-Hotel-Pricing-Ratings-Analysis
 ### 2. Running the Notebook
 
 ####   Install dependencies:
+    python -m venv venv && source venv/bin/activate
     pip install -r requirements.txt
 
 ####  Launch Jupyter Notebook:
