@@ -215,7 +215,7 @@ The cleaned dataset was imported into Power BI to develop a dynamic hotel insigh
  ![Hotels Dashboard Screenshot](assets/dashboard_preview.png)
   <p>
     <a href="https://www.novypro.com/project/ireland-hotel-intelligence-dashboard/" target="_blank">
-      🚀 Live Demo
+      🚀 View Live Dashboard
     </a>
   </p>
   
