@@ -76,7 +76,8 @@ Ireland-Hotels-Pricing-Rating-Analysis/
 ├──README.md                      # Project documentation
 │
 ├── booking_scraper.py            # Srapes data from Booking.com and generates hotels.csv
-└── requirements.txt                   # Python dependencies
+├── requirements.txt                   # Python dependencies
+└── .gitignore
 ```
 
 
