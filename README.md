@@ -308,7 +308,7 @@ cd Ireland-Hotel-Pricing-Ratings-Analysis
     pip install -r requirements.txt
 
 ####  Launch Jupyter Notebook:
-    jupyter notebook Ireland_Hotel_Analysis_Data_Cleaning.ipynb
+    jupyter notebook ireland_hotels_comprehensive_analysis
 
 💡 *Note:  Always use a virtual environment for this project to maintain dependency isolation and ensure reproducible results across different systems.*
 
